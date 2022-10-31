@@ -25,9 +25,9 @@ const normalLink = ' flex items-center gap-3 hover:bg-primary p-3 justify-center
           <div className=' xl:border-b-2 border-gray-200 xl:pb-4'>
             <Link href='/'>
               <div className={normalLink}>
-                <p className=' text-2xl'>
+                <div className=' text-2xl'>
                   <AiFillHome />
-                </p>
+                </div>
                 <span className=' text-xl hidden xl:block'>
                   For You
                 </span>
@@ -36,9 +36,9 @@ const normalLink = ' flex items-center gap-3 hover:bg-primary p-3 justify-center
           </div>
           {!userProfile && (
           <div className=' px-2 py-4 hidden xl:block'>
-            <p className=' text-gray-400'>
+            <div className=' text-gray-400'>
               Log in to like and comment on Videos
-            </p>
+            </div>
             <div className='pr-4'>
               <GoogleLogin 
               clientId=''
